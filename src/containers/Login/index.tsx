@@ -4,11 +4,11 @@ import { connect, Dispatch } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { rootState } from '../../redux'
 
-export function mapStateToProps(state:rootState) {
+function mapStateToProps(state:rootState) {
   return {};
 }
 
-export function mapDispatchToProps(dispatch:Dispatch) {
+function mapDispatchToProps(dispatch:Dispatch) {
   return bindActionCreators({
     login: actions.login
   }, dispatch)

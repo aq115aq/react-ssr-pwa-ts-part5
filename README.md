@@ -1,4 +1,4 @@
-# react-ssr-pwa-ts
+# react-ssr-pwa-part
 node服务端/react &amp; react-router &amp; redux
 
 安装依赖
